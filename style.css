@@ -45,11 +45,17 @@ body {
   text-align: justify;
 }
 
-.servicesText.card {
-  height: 300px;
-  cursor: pointer;
-  padding: 0 2rem;
- 
+figure {
+  float: left;
+  padding: 0 12%;
+  position: center;
+  width: 40%;
+}
+figure img {
+  width: 400px;
+  height: 225px;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 #imagens {
@@ -61,91 +67,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-.carrossel {
-  margin: 0 auto;
-  width: 800px;
-  height: 400px;
-  overflow: hidden;  
-}
-.slides {
-  width: 400px;
-  height: 400px;
-  display: flex;
-}
-.slides input {
-  display: none;
-}
-.slide {
-  width: 25%;
-  position: relative;
-}
-.slide img {
-  width: 800px;
-}
-.manual-navigation {
-  position: absolute;
-  width: 800px;
-  margin-top: -40px;
-  display: flex;
-  justify-content: center;
-}
-.manual-btn {
-  border: 2px solid rgb(204, 204, 241);
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 0.7s;
-}
-.manual-btn:not(:last-child) {
-  margin-right: 40px;
-}
-.manual-btn:hover{
-  background-color: rgb(45, 43, 43);
-}
-#radio1:checked ~ .first{
-  margin-left: 0;
-}
-#radio2:checked ~ .first{
-  margin-left: -25%;
-}
-#radio3:checked ~ .first{
-  margin-left: -50%;
-}
-#radio4:checked ~ .first{
-  margin-left: -75%;
-}
-.navigation-auto div {
-  border: 2ps solid rgb(1, 1, 1);
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 0.7s;
-}
-.navigation-auto {
-  position: absolute;
-  width: 800px;
-  margin-top: 360px;
-  display: flex;
-  justify-content: center;
-}
-.navigation-auto div:not(:last-child) {
-  margin-right: 40px;
-}
-#radio1:checked ~ .navigation-auto .auto_btn1{
-  background-color: white;
-}
-#radio2:checked ~ .navigation-auto .auto_btn2{
-  background-color: white;
-}
-#radio3:checked ~ .navigation-auto .auto_btn3{
-  background-color: white;
-}
-#radio4:checked ~ .navigation-auto .auto_btn4{
-  background-color: white;
-}
-
-
-
 
 .servicesIcon {
   height: 36px;
@@ -160,6 +81,10 @@ body {
 .cardText {
   text-align: justify;
   font-size: 1rem;
+}
+.links a {
+  text-decoration: none;
+  color: #121213;
 }
 
 nav {
