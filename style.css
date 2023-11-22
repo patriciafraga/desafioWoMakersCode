@@ -41,7 +41,7 @@ body {
   width: 80%;
   border-radius: 15px;
 }
-#sobreMim {
+.sobreMim {
   text-align: justify;
 }
 
@@ -162,21 +162,13 @@ body {
   font-size: 1rem;
 }
 
-.card:hover .servicesIcon {
-  color: #03012d;
-}
-
-.servicesText:hover {
-  border: 1px solid #fb2edf;
-}
-
 nav {
   margin: 0 auto;
   padding: 0 2rem;
 }
 
 .navbar {
-  background-color: #121216;
+  background-color: #121213;
   max-width: auto;
 }
 
@@ -192,14 +184,6 @@ nav {
   max-width: fit-content;
 }
 
-.contactIcon {
-  font-size: 3rem;
-  padding: 0 3rem;
-  color: #ae057b;
-}
-.contactContent {
-  text-align: center;
-}
 
 footer {
   background-color: #48424f;
