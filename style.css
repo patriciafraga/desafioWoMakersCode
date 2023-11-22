@@ -1,9 +1,8 @@
 #sobre,
-#servicos,
-#portfolio,
-#competencias,
-#contato {
-  padding: 10rem 0;
+#imagens,
+#fontes
+ {
+  padding: 5rem 0;
 }
 
 body {
@@ -45,6 +44,18 @@ body {
   text-align: justify;
 }
 
+
+#imagens {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
 figure {
   float: left;
   padding: 0 12%;
@@ -57,18 +68,9 @@ figure img {
   border-radius: 8px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-
-#imagens {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center;
+.figuras{
+  padding-top: 50px;
 }
-
 .servicesIcon {
   height: 36px;
   text-align: center;
